@@ -1,6 +1,6 @@
 # Pacman 2
 
-- Solves: ** 0 **
+- Solves: **0**
 - Category: Reverse
 - Estimated difficulty: difficult
 - Author: Raspberry4All
@@ -14,7 +14,7 @@ The ROM is [here](./puckmanb.zip)
 
 ## Solution
 
-This is a MAME ROM. Install MAME `apt-get install mame-tools mame` to play or DAME (Dockerized MAME). The zip of the ROM must be put in the `roms` directory.
+The supplied file is a MAME ROM. Install MAME `apt-get install mame-tools mame` to play or DAME (Dockerized MAME). The zip of the ROM must be put in the `roms` directory.
 
 - 5 for coins
 - 1 to start player 1
@@ -28,7 +28,7 @@ The following documents are very helpful:
 - [Z80 Family CPU User Manual](http://z80.info/zip/z80cpu_um.pdf)
 - [Z80 Pacman source code](http://www.vecoven.com/elec/pacman/code/pac_z80.html)
 - [Pacman Emulation](http://www.lomont.org/Software/Games/PacMan/PacmanEmulation.pdf)
-- [RAM map](http://ece545.com/F16/reports/F15_Pacman.pdf) or [here](https://web.archive.org/web/20180205075730/http://www.ece545.com/F16/reports/F15_Pacman.pdf_
+- [RAM map](http://ece545.com/F16/reports/F15_Pacman.pdf) or [here](https://web.archive.org/web/20180205075730/http://www.ece545.com/F16/reports/F15_Pacman.pdf_)
 
 ### Comparing the ROMs
 
@@ -88,14 +88,14 @@ In this original ROM, this corresponds to loading `0x40` in the RAM:
 
 ```
 0x000009eb      0640         ld b, 0x40
-0x000009ed      70             ld [hl], b    ; load 0x40 in the RAM
+0x000009ed      70           ld [hl], b    ; load 0x40 in the RAM
 ```
 
 Let's try and understand a bit more what the routine is doing.
 
 1. Store 0xff at the address of 0x4d9d (game variables RAM - see [page 7](https://web.archive.org/web/20180205075730/http://www.ece545.com/F16/reports/F15_Pacman.pdf))
 2. Load the content of `0x4d39` in hl. We'll work out that 0x4d39 is a pointer to the current position of the pacman.
-3. If a == 0x10 (this is character `.`), then jump to 0x9e0. We will then increment counter 0x4e0e and put an empty space (character `0x40` is an empty space - see [Figure 4](http://www.lomont.org/Software/Games/PacMan/PacmanEmulation.pdf)  at 0x4d39
+3. If a == 0x10 (this is character `.`), then jump to 0x9e0. We will then increment counter 0x4e0e and put an empty space (character `0x40` is an empty space - see [Figure 4](http://www.lomont.org/Software/Games/PacMan/PacmanEmulation.pdf))  at 0x4d39
 4. If a == 0x14 (this is the big dot character), then return
 
 
@@ -123,7 +123,7 @@ Now, let's compare with what we have in the patched ROM. We see `c3 9a 1f`, whic
 0x000009eb      c39a1f         jp 0x1f9a
 ```
 
-namcopac.6f is loaded at addresses `0x1000-0x1ffff`, so when we see a jump to 0x1f9a, this corresponds to a jump to `0xf9a` in our disassembled file. And, bingo, we have lots of changes in the ROM starting at this address!
+`namcopac.6f` is loaded at addresses `0x1000-0x1ffff`, so when we see a jump to 0x1f9a, this corresponds to a jump to `0xf9a` in our disassembled file. And, bingo, we have lots of changes in the ROM starting at this address!
 
 So, basically, the patched ROM jumps to the **patch**.
 
@@ -196,6 +196,7 @@ Then, we code the check. Note that:
 
 ```python
 #!/usr/bin/env python
+# Author: @cryptax
 
 def decode(buffer, position=0x42b8,level=0x00):
     pacman_tile = ' ABCDEFGHIJKLMNOPQRSTUVWXYZ!'
