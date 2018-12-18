@@ -8,6 +8,8 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 
 ## Completed write-ups
 
+- reverse/[Pacman 2](./reverse/pacman/pacman2.md)
+
 *To complete*
 
 ## External write-ups only
@@ -24,6 +26,7 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 - misc/[Track the Hacker](https://tipi-hack.github.io/2018/12/16/Ph0wn-Track-the-hacker.html)
 - misc/[Pacman 1](http://sebastien.andrivet.com/en/posts/ph0wn-my-first-iot-ctf-part-1/)
 - network/[Chromecast](https://tipi-hack.github.io/2018/12/17/Ph0wn-Chromecast.html)
+- exploit/[Writable Memories 2](https://unjambonakap.github.io/2018/12/17/ph0wn-writable-memories-2.html)
 
 ## Missing write-ups
 
@@ -31,9 +34,8 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 - hardware/Wanted
 - hardware/Flag digger
 - exploit/Al Berry 1 and 2
-- exploit/Writable Memories 1 and 2
+- exploit/Writable Memories 1
 - exploit/Exit Only
-- reverse/Pacman 2
 - reverse/From BlackAlps with <3 - 2
 - misc/From BlackAlps with <3 - 1
 - network/Lora 1, 2 and 3
