@@ -9,10 +9,13 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 ## Completed write-ups
 
 - reverse/[Pacman 2](./reverse/pacman/pacman2.md)
+- prog/[Save the factory](./prog/savethefactory/savefactory.md)
+- misc/[Track the Hacker](./misc/trackthehacker/trackhacker.md)
+- network/[Blood Glucose Sensor](./network/glucose/README.md)
 
 *To complete*
 
-## External write-ups only
+## External write-ups
 
 *Thank you to participants for their write-ups!*
 
@@ -39,7 +42,6 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 - reverse/From BlackAlps with <3 - 2
 - misc/From BlackAlps with <3 - 1
 - network/Lora 1, 2 and 3
-- network/Blood Glucose Sensor
 
 
 ## Smart devices
