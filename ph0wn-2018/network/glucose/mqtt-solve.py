@@ -28,7 +28,7 @@ def on_message(client, userdata, msg):
 client = mqtt.Client(userdata='hacker')
 client.username_pw_set(username='admin', password='Sugar1sBaaaaaaad') # step1: find admin password is Sugar1sBaaa..d
 client.on_message = on_message
-client.connect("10.210.17.67", 1883, 60)
+client.connect("127.0.0.1", 1883, 60) # REPLACE WITH YOUR SERVER
 
 print "connected"
 client.subscribe("ph0wn18/flag") # it is sufficient to listen to this topic, but we can also listen to all : ph0wn/#

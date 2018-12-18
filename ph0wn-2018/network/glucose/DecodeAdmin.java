@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.Base64;
 
+// Decoding Admin credentials for Glucose Challenge Ph0wn CTF 2018
+// @cryptax
+
 public class DecodeAdmin {
     public static final byte KEY1 = 52;
     public static final byte KEY2 = 0x75;
