@@ -29,8 +29,10 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 - misc/[Track the Hacker](https://tipi-hack.github.io/2018/12/16/Ph0wn-Track-the-hacker.html)
 - misc/[Pacman 1](http://sebastien.andrivet.com/en/posts/ph0wn-my-first-iot-ctf-part-1/)
 - network/[Chromecast](https://tipi-hack.github.io/2018/12/17/Ph0wn-Chromecast.html)
+- network/[LoRa](http://duksctf.github.io/2018/12/14/Ph0wn2018-LoRa1.html)
 - exploit/[Writable Memories 2](https://unjambonakap.github.io/2018/12/17/ph0wn-writable-memories-2.html)
 - hardware/[Flag digger](http://sebastien.andrivet.com/en/posts/ph0wn-my-first-iot-ctf-part-2/) and [here](https://research.kudelskisecurity.com/2018/12/19/ph0wn-2018-flag-digger/)
+
 
 ## Missing write-ups
 
