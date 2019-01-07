@@ -13,8 +13,6 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 - misc/[Track the Hacker](./misc/trackthehacker/trackhacker.md)
 - network/[Blood Glucose Sensor](./network/glucose/README.md)
 
-*To complete*
-
 ## External write-ups
 
 *Thank you to participants for their write-ups!*
@@ -37,15 +35,14 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 
 ## Missing write-ups
 
-- hardware/Forgotten Challenge1 and 2
+- hardware/Forgotten Challenge 1 and 2
 - hardware/Wanted
-- hardware/Flag digger
-- exploit/Al Berry 1 and 2
+- exploit/Al Berry 2
 - exploit/Writable Memories 1
 - exploit/Exit Only
 - reverse/From BlackAlps with <3 - 2
 - misc/From BlackAlps with <3 - 1
-- network/Lora 1, 2 and 3
+
 
 
 ## Smart devices
@@ -54,7 +51,8 @@ Ph0wn is a CTF dedicated to smart devices. The 2018 edition took place on Decemb
 - EV3 Lego robot
 - Merross smart plug
 - Google ChromeCast
-- nRF51DK
+- Amazfit Bip smart watch
+- nRF51DK dev kit
 - Raspberry Pi
 - Black Alps badges
 - LoRa UCA boards
